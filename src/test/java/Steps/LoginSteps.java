@@ -25,6 +25,7 @@ public class LoginSteps extends CommonMethods {
         @When("user enter password")
         public void user_enter_password() {
             sendText(login.passwordTextField, "Hum@nhrm123");
+            System.out.println("we are young");
         }
 
 //        WebElement usernameField = driver.findElement(By.id("txtUsername"));
